@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from Spacewar-S1.1-221022-1221.
+0c760bfe3acde43a894a3a56848894e0200b3306# All unpinned blobs are extracted from Spacewar-S1.1-221022-1221.
 
 # ACDB
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
@@ -1085,13 +1085,6 @@ vendor/lib64/libQnnHtpAltPrepStub.so
 vendor/lib64/unnhal-acc-common.so
 vendor/lib64/unnhal-acc-gpu.so
 vendor/lib64/unnhal-acc-htp.so
-
-# NFC configs
-vendor/etc/libnfc-nci.conf
-vendor/etc/libnfc-nxp.conf
-
-# NFC firmware
-vendor/lib64/libpn557_fw.so
 
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
