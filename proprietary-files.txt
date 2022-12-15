@@ -716,6 +716,7 @@ vendor/lib/libbase64.so
 vendor/lib/libcppf.so
 vendor/lib/libtrustedapploader.so
 vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib64/liboemcrypto.so
 vendor/lib64/libbase64.so
 vendor/lib64/libtrustedapploader.so
 vendor/lib64/libwvhidl.so
