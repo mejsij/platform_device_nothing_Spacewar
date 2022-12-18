@@ -502,3 +502,6 @@ if [ -f /proc/secure_state ]; then
                                     ;;
     esac
 fi
+
+# Clear packages_cache to avoid systemapp have mismatch strings id
+rm -rf /data/system/package_cache
