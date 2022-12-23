@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_Spacewar.mk
+    $(LOCAL_DIR)/cherish_Spacewar.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_Spacewar-userdebug \
-    aosp_Spacewar-user \
-    aosp_Spacewar-eng
+    cherish_Spacewar-userdebug \
+    cherish_Spacewar-user \
+    cherish_Spacewar-eng
