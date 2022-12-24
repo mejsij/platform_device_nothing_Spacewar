@@ -77,6 +77,10 @@ USE_CUSTOM_AUDIO_POLICY := 1
 # Bluetooth
 TARGET_DISABLE_BLUETOOTH_LE_READ_BUFFER_SIZE_V2 := true
 TARGET_DISABLE_BLUETOOTH_LE_SET_HOST_FEATURE := true
+SOONG_CONFIG_NAMESPACES += androidBluetoothVars
+SOONG_CONFIG_androidBluetoothVars += \
+    le_disable_read_buffer_size_and_set_host
+SOONG_CONFIG_androidBluetoothVars_le_disable_read_buffer_size_and_set_host ?= true
 
 # Display
 SOONG_CONFIG_qtidisplay_udfps := true
